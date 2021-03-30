@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Traceability Vocabulary v0.0</title>
+    <title>OCI v0.0</title>
     <meta http-equiv=" Content-Type" content="text/html;charset=utf-8" />
 
     <script
@@ -14,7 +14,7 @@
         specStatus: 'UNOFFICIAL',
 
         // the specification's short name, as in http://www.w3.org/TR/short-name/
-        shortName: 'traceability-vocab',
+        shortName: 'oci',
 
         // if you wish the publication date to be other than today, set this
         // publishDate:  "2009-08-06",
@@ -26,7 +26,7 @@
         previousMaturity: 'UNOFFICIAL',
 
         // if there a publicly available Editor's Draft, this is the link
-        edDraftURI: 'https://w3c-ccg.github.io/traceability-vocab',
+        edDraftURI: 'https://open-credentialing-initiative.github.io/oci',
 
         // if this is a LCWD, uncomment and set the end of its review period
         // lcEnd: "2009-08-05",
@@ -39,59 +39,26 @@
         // only "name" is required
         editors: [
           {
-            name: 'Orie Steele',
-            url: 'https://github.com/OR13',
-            company: 'Transmute',
-            companyURL: 'https://www.transmute.industries/',
+            name: 'Andrey Orlov',
+            url: 'https://github.com/aaorlov',
+            company: 'Spherity',
+            companyURL: 'https://spherity.com/',
           },
           {
-            name: 'Michael Prorock',
-            url: 'https://github.com/mprorock',
-            company: 'Mesur.io',
-            companyURL: 'https://www.mesur.io/',
-          },
-          {
-            name: 'Brian Munz',
-            url: 'https://github.com/brianwmunz',
-            company: 'Mesur.io',
-            companyURL: 'https://www.mesur.io/',
-          },
-          {
-            name: 'Mahmoud Alkhraishi',
-            url: 'https://github.com/mkhraisha',
-            company: 'Mavennet',
-            companyURL: 'https://www.mavennet.com/',
-          },
+            name: 'Alexander Yenkalov',
+            url: 'https://github.com/AlexYenkalov',
+            company: 'Spherity',
+            companyURL: 'https://spherity.com/',
+          }
         ],
-
-        // extend the bibliography entries
-        //localBiblio: webpayments.localBiblio,
-        // group: "w3c-ccg",
-        // {
-        //   name: "Credentials Community Group",
-        //   url: "https://www.w3.org/community/credentials/",
-        //   list: "public-credentials",
-        //   patentUri: "https://www.w3.org/community/about/agreements/cla/",
-        // }
-        // wg: respecPagesJson.group.name,
-        // // URI of the public WG page
-        // wgURI: respecPagesJson.group.url,
-        // // name (with the @w3c.org) of the public mailing to which comments are due
-        // wgPublicList: respecPagesJson.group.list,
-        // URI of the patent status for this WG, for Rec-track documents
-        // !!!! IMPORTANT !!!!
-        // This is important for Rec-track documents, do not copy a patent URI from a random
-        // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
-        // Team Contact.
-        // wgPatentURI: respecPagesJson.group.patentUri,
 
         otherLinks: [
           {
             key: 'Source Control',
             data: [
               {
-                value: 'https://github.com/w3c-ccg/traceability-vocab',
-                href: 'https://github.com/w3c-ccg/traceability-vocab',
+                value: 'https://github.com/Open-Credentialing-Initiative/oci',
+                href: 'https://github.com/Open-Credentialing-Initiative/oci',
               },
             ],
           },
@@ -99,8 +66,8 @@
             key: 'Issue Tracker',
             data: [
               {
-                value: 'https://github.com/w3c-ccg/traceability-vocab/issues',
-                href: 'https://github.com/w3c-ccg/traceability-vocab/issues',
+                value: 'https://github.com/Open-Credentialing-Initiative/oci/issues',
+                href: 'https://github.com/Open-Credentialing-Initiative/oci/issues',
               },
             ],
           },
@@ -175,27 +142,17 @@
       <p>
         To contribue to this vocabulary or reference technical details related
         to the project, please reference the primary README located on
-        <a href="https://github.com/w3c-ccg/traceability-vocab/">github</a>
+        <a href="https://github.com/Open-Credentialing-Initiative/oci/">github</a>
       </p>
 
       <p>
         Please
-        <a href="https://github.com/w3c-ccg/traceability-vocab/issues/"
+        <a href="https://github.com/Open-Credentialing-Initiative/oci/issues/"
           >open an issue</a
         >
         , if you wish to collaborate on this specification.
       </p>
 
-      <p>
-        You may also reach out via the mailing list:
-        <a href="mailto:public-credentials@w3.org">public-credentials@w3.org</a>
-        (<a href="mailto:public-credentials-request@w3.org?subject=subscribe"
-          >subscribe</a
-        >,
-        <a href="https://lists.w3.org/Archives/Public/public-credentials/"
-          >archives</a
-        >)
-      </p>
     </section>
 
     <section class="informative">
@@ -203,7 +160,7 @@
 
       <p>
         This specification describes a Linked Data vocabulary for asserting
-        Verifiable Credentials related to traceability information, such as
+        Verifiable Credentials related to oci information, such as
         chemical properties, mechanical properties, country of origin, and other
         attributes used to determine the status of a products and materials in a
         supply chain.
@@ -248,24 +205,9 @@
           </thead>
           <tbody>
             <tr>
-              <td>Agriculture</td>
-              <td>Michael Prorock</td>
-              <td>mprorock@mesur.io</td>
-            </tr>
-            <tr>
-              <td>E-Commerce</td>
-              <td>Carsten Stöcker</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Oil and Gas</td>
-              <td>Mahmoud Alkhraishi</td>
-              <td>mahmoud@mavennet.com</td>
-            </tr>
-            <tr>
-              <td>Steel and Metals</td>
-              <td>Orie Steele</td>
-              <td>orie@transmute.industries</td>
+              <td>OCI</td>
+              <td>Andrey Orlov</td>
+              <td>andrey.orlov@spherity.io</td>
             </tr>
           </tbody>
         </table>
@@ -282,146 +224,12 @@
         </p>
 
         <!-- definition styling works well for these, but we can adjust at a later data should we want to break out into another format -->
+
         <section>
-          <h4>Steel and Metals</h4>
+          <h5><a href="./schemas/IdentityCredential.json">IdentityCredential</a></h5>
           <dl class="termlist">
             <p>
-              The global steel industry relies on cross-party communication of
-              product and business information to successfully move materials
-              from mines, to manufacturers, through customs, to end customers
-              (such as automotive and construction companies). Today this
-              information exists primarily in siloed paper documents. In the
-              current format it is very difficult to make data comparisons
-              across a small number of parties, let alone across millions of
-              shipments over time. It can also be difficult to catch forged
-              documents in the absence of digital signatures and clearly defined
-              organization data attributes.
-            </p>
-
-            <p>
-              A shared vocabulary creates opportunities for steel trading
-              partners to work from a common digital representation of trade
-              information. Take the example of a mill report for a steel
-              product. This document provides important information about the
-              chemical make-up of steel materials, helping to ensure the desired
-              specification and grade have been met. It also acts as evidence
-              about the origins of steel materials. Unambiguous representation
-              of mill report fields is critical for assessing appropriate
-              duties, meeting customer requirements, and ultimately ensuring
-              consumer safely.
-            </p>
-
-            <p>
-              By defining the schema for each field, importers can now answer
-              questions like “How many pipes of specification XYZ did we
-              purchase last year?” (i.e.,
-              <a
-                href="https://w3id.org/traceability#schemas/ChemicalProperty.json"
-                >ChemicalProperty</a
-              >). The mill report can also be linked to other trade
-              documentation such as commercial invoices and bills of lading when
-              those credentials are specified and defined. Regulators can also
-              ask questions across a large number of mill reports to help catch
-              transshipment issues, such as “How much steel product imported
-              last month specified Vietnam as the country of origin?” (i.e.,
-              <a href="https://schema.org/addressCountry">addressCountry</a>).
-            </p>
-          </dl>
-
-          <p>Credentials of interest:</p>
-          <ul>
-            <li>
-              <a href="#MillTestReportCertificate">Mill Test Report Certificate</a>
-            </li>
-            <li>
-              <a href="#CommercialInvoiceCertificate">Commercial Invoice Certificate</a>
-            </li>
-            <li>
-              <a href="#BillOfLadingCertificate">Bill of Lading Certificate</a>
-            </li>
-          </ul>
-        </section>
-
-        <section>
-          <h5>Food and Agriculture</h5>
-          <p>
-            Several use cases exist for common vocabulary in the food and
-            agriculture space. Key priorities for this project revolve around
-            items that are required for the safe and succesful importation of
-            food to various countries.
-          </p>
-          <p>
-            The top level
-            <a href="./schemas/AgInspectionReport.json">AgInspectionReport</a>
-            object has been created as a parent object that allows for the
-            recording of the following inspections and audits, while giving
-            flexibility to account for newly defined inspction types as needs
-            change in the food and agricultre industry. This object can be
-            sub-classed to allow for schema level validation of specific types
-            of inspections and audits as required by the specifics of a given
-            use case. Verifiable Credentials can be issued for this object or
-            sub classes of this object to allow for external verification by
-            third parties that are implementing the Verifiable Credentials
-            sepcification
-          </p>
-          <dl>
-            <dt><dfn>Farm GAP Inspection Report</dfn></dt>
-            <dd>
-              Keep track of
-              <a href="https://www.ams.usda.gov/services/auditing/gap-ghp"
-                >Good Agricultural Practices (GAP)</a
-              >
-              audits and share results with a vendor
-            </dd>
-            <dt><dfn>FSMA Inspection</dfn></dt>
-            <dd>
-              <a
-                href="https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma"
-                >Food Safety Modernization Act</a
-              >
-              inspections and results for sharing with relevant parties,
-              regulatory bodies and vendors.
-            </dd>
-            <dt>
-              <dfn>Foreign Site Certificate of Inspection and/or Treatment</dfn>
-            </dt>
-            <dd>
-              <a
-                href="https://www.aphis.usda.gov/aphis/resources/forms/CT_PPQ_Forms"
-                >USDA APHIS PPQ FORM 203</a
-              >
-              that is required for pre-clearance of imported food and ag goods
-              into the US
-            </dd>
-          </dl>
-        </section>
-        <section>
-          <h5>Oil and Gas</h5>
-          <dl class="termlist">
-            <p>
-              A common traceability vocabulary will enable creation of a common
-              digital representation of an oil and gas assets and a variety of
-              use cases. The main priority of this project is the border
-              clearance and regulatory compliance use cases, that enable
-              industry players to rely on the asset history, origin, and
-              composition recorded as Verifiable credentials to be used in these
-              processes.
-            </p>
-            <p>
-              The asset-specific CrudeOil VC (and NaturalGas VC) object serves
-              as a root object that stores the key attributes of the asset as
-              well as origin and composition. In addition to the asset VC, we
-              are planning to represent key events in the asset’s lifecycle
-              (inspection, transportation, transfer of ownership) as Verifiable
-              Credentials.
-            </p>
-          </dl>
-        </section>
-        <section>
-          <h5>E-Commerce</h5>
-          <dl class="termlist">
-            <p>
-              A common traceability vocabulary will allow complex supply chains
+              A common oci vocabulary will allow complex supply chains
               that import goods to US-resident customers to register individual
               packages and pre-register products intended for sale to the US
               with US Customs. For the data needs of Customs to be met by highly

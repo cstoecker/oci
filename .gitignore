@@ -7,7 +7,7 @@ docs/contexts/*.jsonld
 docs/credentials/*.json
 
 docs/schemas
-docs/traceability-openapi-v1.json
+docs/oci-openapi-v1.json
 docs/intermediate.json
 docs/sections/vocab.html
-packages/traceability-schemas/index.js
+packages/oci-schemas/index.js
