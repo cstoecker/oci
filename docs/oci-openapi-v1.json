@@ -1,0 +1,110 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "OCI Vocabulary Specification",
+    "description": "OCI Schemas in OpenAPI format for use with swagger, redoc and similar\n\nDemonstrates how to utilize the schemas over OpenAPI as there is not a direct 1:1 translation between OpenAPI and JSON Schema",
+    "contact": {
+      "name": "W3C OCI Vocabulary",
+      "url": "https://github.com/Open-Credentialing-Initiative/oci/issues"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/IdentityCredential": {
+      "get": {
+        "description": "IdentityCredential",
+        "responses": {
+          "200": {
+            "description": "A list of all IdentityCredential objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IdentityCredential"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "IdentityCredential": {
+        "title": "IdentityCredential",
+        "type": "object",
+        "required": [
+          "parent",
+          "legalName",
+          "address",
+          "locality",
+          "region",
+          "dueDiligenceSource",
+          "dueDiligenceSignature"
+        ],
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "parent": {
+            "title": "Parent Organization",
+            "type": "string"
+          },
+          "legalName": {
+            "title": "Legal Name",
+            "type": "string"
+          },
+          "address": {
+            "title": "Address",
+            "type": "string"
+          },
+          "locality": {
+            "title": "Locality",
+            "type": "string"
+          },
+          "region": {
+            "title": "Region",
+            "type": "string"
+          },
+          "postalCode": {
+            "title": "Postal Code",
+            "type": "string"
+          },
+          "dueDiligenceSource": {
+            "title": "Due Diligence Source",
+            "description": "The \"dueDiligenceSource\" property describes the due dilligence type that has been performed to verify the enterprise identity, ie. the identitiy of the credential Subject",
+            "type": "string"
+          },
+          "dueDiligenceSignature": {
+            "title": "Due Diligence Source",
+            "description": "The \"dueDiligenceSignature\" property holds the signature of the company that performed due dilligence.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

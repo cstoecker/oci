@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "identifier": "https://schema.org/identifier",
+    "image": {
+      "@id": "https://schema.org/image",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "type": "@type",
+    "IdentityCredential": {
+      "@id": "https://open-credentialing-initiative.github.io/oci#IdentityCredential",
+      "@context": {
+        "parent": {
+          "@id": "https://schema.org/parentOrganization"
+        },
+        "legalName": {
+          "@id": "https://schema.org/name"
+        },
+        "address": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "locality": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "region": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "postalCode": {
+          "@id": "https://schema.org/postalCode"
+        },
+        "dueDiligenceSource": {
+          "@id": "https://open-credentialing-initiative.github.io/oci#dueDiligenceSource"
+        },
+        "dueDiligenceSignature": {
+          "@id": "https://open-credentialing-initiative.github.io/oci#dueDiligenceSignature"
+        }
+      }
+    }
+  }
+}
