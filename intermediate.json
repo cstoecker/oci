@@ -15,10 +15,10 @@
         },
         "title": "Legal Name"
       },
-      "https://schema.org/PostalAddress": {
+      "https://open-credentialing-initiative.github.io/oci#PostalAddress": {
         "$comment": {
           "term": "address",
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "title": "Address"
       },
@@ -61,7 +61,7 @@
           "type": "string"
         },
         "address": {
-          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#PostalAddress\"}",
           "title": "Address",
           "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
         },
@@ -90,10 +90,10 @@
         },
         "title": "Legal Name"
       },
-      "https://schema.org/PostalAddress": {
+      "https://open-credentialing-initiative.github.io/oci#PostalAddress": {
         "$comment": {
           "term": "address",
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "title": "Address"
       },
@@ -136,7 +136,7 @@
           "type": "string"
         },
         "address": {
-          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#PostalAddress\"}",
           "title": "Address",
           "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
         },
@@ -165,10 +165,10 @@
         },
         "title": "Legal Name"
       },
-      "https://schema.org/PostalAddress": {
+      "https://open-credentialing-initiative.github.io/oci#PostalAddress": {
         "$comment": {
           "term": "address",
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "title": "Address"
       },
@@ -211,7 +211,7 @@
           "type": "string"
         },
         "address": {
-          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#PostalAddress\"}",
           "title": "Address",
           "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
         },
@@ -247,10 +247,10 @@
         },
         "title": "Legal Name"
       },
-      "https://schema.org/PostalAddress": {
+      "https://open-credentialing-initiative.github.io/oci#PostalAddress": {
         "$comment": {
           "term": "address",
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "title": "Address"
       },
@@ -309,7 +309,7 @@
           "type": "string"
         },
         "address": {
-          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#PostalAddress\"}",
           "title": "Address",
           "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
         },
@@ -329,12 +329,12 @@
       "additionalProperties": false
     }
   },
-  "https://schema.org/PostalAddress": {
+  "https://open-credentialing-initiative.github.io/oci#PostalAddress": {
     "$id": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "PostalAddress",
-      "@id": "https://schema.org/PostalAddress"
+      "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
     },
     "title": "Postal Address",
     "description": "The location at which a particular organization or person may be found or reached.",
@@ -375,7 +375,7 @@
     "schema": {
       "$id": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"PostalAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
+      "$comment": "{\"term\": \"PostalAddress\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#PostalAddress\"}",
       "title": "Postal Address",
       "description": "The location at which a particular organization or person may be found or reached.",
       "type": "object",

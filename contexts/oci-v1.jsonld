@@ -17,7 +17,7 @@
           "@id": "https://schema.org/name"
         },
         "address": {
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "globalLocationNumber": {
           "@id": "https://schema.org/globalLocationNumber"
@@ -31,7 +31,7 @@
           "@id": "https://schema.org/name"
         },
         "address": {
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "globalLocationNumber": {
           "@id": "https://schema.org/globalLocationNumber"
@@ -45,7 +45,7 @@
           "@id": "https://schema.org/name"
         },
         "address": {
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "globalLocationNumber": {
           "@id": "https://schema.org/globalLocationNumber"
@@ -62,7 +62,7 @@
           "@id": "https://schema.org/name"
         },
         "address": {
-          "@id": "https://schema.org/PostalAddress"
+          "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress"
         },
         "dueDiligenceSource": {
           "@id": "https://open-credentialing-initiative.github.io/oci#dueDiligenceSource"
@@ -73,7 +73,7 @@
       }
     },
     "PostalAddress": {
-      "@id": "https://schema.org/PostalAddress",
+      "@id": "https://open-credentialing-initiative.github.io/oci#PostalAddress",
       "@context": {
         "streetAddress": {
           "@id": "https://schema.org/streetAddress"
