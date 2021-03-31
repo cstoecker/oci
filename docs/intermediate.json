@@ -1,4 +1,229 @@
 {
+  "https://open-credentialing-initiative.github.io/oci#DSCSADispenserATPCredential": {
+    "$id": "https://open-credentialing-initiative.github.io/oci/schemas/DSCSADispenserATPCredential.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "DSCSADispenserATPCredential",
+      "@id": "https://open-credentialing-initiative.github.io/oci#DSCSADispenserATPCredential"
+    },
+    "title": "DSCSADispenserATPCredential",
+    "classProperties": {
+      "https://schema.org/name": {
+        "$comment": {
+          "term": "legalName",
+          "@id": "https://schema.org/name"
+        },
+        "title": "Legal Name"
+      },
+      "https://schema.org/PostalAddress": {
+        "$comment": {
+          "term": "address",
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "title": "Address"
+      },
+      "https://schema.org/globalLocationNumber": {
+        "$comment": {
+          "term": "globalLocationNumber",
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "title": "Global Location Number"
+      }
+    },
+    "schema": {
+      "$id": "https://open-credentialing-initiative.github.io/oci/schemas/DSCSADispenserATPCredential.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"DSCSADispenserATPCredential\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#DSCSADispenserATPCredential\"}",
+      "title": "DSCSADispenserATPCredential",
+      "type": "object",
+      "required": [
+        "legalName",
+        "address",
+        "globalLocationNumber"
+      ],
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "legalName": {
+          "$comment": "{\"term\": \"legalName\", \"@id\": \"https://schema.org/name\"}",
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "address": {
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "title": "Address",
+          "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
+        },
+        "globalLocationNumber": {
+          "$comment": "{\"term\": \"globalLocationNumber\", \"@id\": \"https://schema.org/globalLocationNumber\"}",
+          "title": "Global Location Number",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "https://open-credentialing-initiative.github.io/oci#DSCSAManufacturerATPCredential": {
+    "$id": "https://open-credentialing-initiative.github.io/oci/schemas/DSCSAManufacturerATPCredential.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "DSCSAManufacturerATPCredential",
+      "@id": "https://open-credentialing-initiative.github.io/oci#DSCSAManufacturerATPCredential"
+    },
+    "title": "DSCSAManufacturerATPCredential",
+    "classProperties": {
+      "https://schema.org/name": {
+        "$comment": {
+          "term": "legalName",
+          "@id": "https://schema.org/name"
+        },
+        "title": "Legal Name"
+      },
+      "https://schema.org/PostalAddress": {
+        "$comment": {
+          "term": "address",
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "title": "Address"
+      },
+      "https://schema.org/globalLocationNumber": {
+        "$comment": {
+          "term": "globalLocationNumber",
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "title": "Global Location Number"
+      }
+    },
+    "schema": {
+      "$id": "https://open-credentialing-initiative.github.io/oci/schemas/DSCSAManufacturerATPCredential.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"DSCSAManufacturerATPCredential\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#DSCSAManufacturerATPCredential\"}",
+      "title": "DSCSAManufacturerATPCredential",
+      "type": "object",
+      "required": [
+        "legalName",
+        "address",
+        "globalLocationNumber"
+      ],
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "legalName": {
+          "$comment": "{\"term\": \"legalName\", \"@id\": \"https://schema.org/name\"}",
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "address": {
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "title": "Address",
+          "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
+        },
+        "globalLocationNumber": {
+          "$comment": "{\"term\": \"globalLocationNumber\", \"@id\": \"https://schema.org/globalLocationNumber\"}",
+          "title": "Global Location Number",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "https://open-credentialing-initiative.github.io/oci#DSCSAWholesalerATPCredential": {
+    "$id": "https://open-credentialing-initiative.github.io/oci/schemas/DSCSAWholesalerATPCredential.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "DSCSAWholesalerATPCredential",
+      "@id": "https://open-credentialing-initiative.github.io/oci#DSCSAWholesalerATPCredential"
+    },
+    "title": "DSCSAWholesalerATPCredential",
+    "classProperties": {
+      "https://schema.org/name": {
+        "$comment": {
+          "term": "legalName",
+          "@id": "https://schema.org/name"
+        },
+        "title": "Legal Name"
+      },
+      "https://schema.org/PostalAddress": {
+        "$comment": {
+          "term": "address",
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "title": "Address"
+      },
+      "https://schema.org/globalLocationNumber": {
+        "$comment": {
+          "term": "globalLocationNumber",
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "title": "Global Location Number"
+      }
+    },
+    "schema": {
+      "$id": "https://open-credentialing-initiative.github.io/oci/schemas/DSCSAWholesalerATPCredential.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"DSCSAWholesalerATPCredential\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#DSCSAWholesalerATPCredential\"}",
+      "title": "DSCSAWholesalerATPCredential",
+      "type": "object",
+      "required": [
+        "legalName",
+        "address",
+        "globalLocationNumber"
+      ],
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "legalName": {
+          "$comment": "{\"term\": \"legalName\", \"@id\": \"https://schema.org/name\"}",
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "address": {
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "title": "Address",
+          "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
+        },
+        "globalLocationNumber": {
+          "$comment": "{\"term\": \"globalLocationNumber\", \"@id\": \"https://schema.org/globalLocationNumber\"}",
+          "title": "Global Location Number",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
   "https://open-credentialing-initiative.github.io/oci#IdentityCredential": {
     "$id": "https://open-credentialing-initiative.github.io/oci/schemas/IdentityCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -22,33 +247,12 @@
         },
         "title": "Legal Name"
       },
-      "https://schema.org/streetAddress": {
+      "https://schema.org/PostalAddress": {
         "$comment": {
           "term": "address",
-          "@id": "https://schema.org/streetAddress"
+          "@id": "https://schema.org/PostalAddress"
         },
         "title": "Address"
-      },
-      "https://schema.org/addressLocality": {
-        "$comment": {
-          "term": "locality",
-          "@id": "https://schema.org/addressLocality"
-        },
-        "title": "Locality"
-      },
-      "https://schema.org/addressRegion": {
-        "$comment": {
-          "term": "region",
-          "@id": "https://schema.org/addressRegion"
-        },
-        "title": "Region"
-      },
-      "https://schema.org/postalCode": {
-        "$comment": {
-          "term": "postalCode",
-          "@id": "https://schema.org/postalCode"
-        },
-        "title": "Postal Code"
       },
       "https://open-credentialing-initiative.github.io/oci#dueDiligenceSource": {
         "$comment": {
@@ -77,8 +281,6 @@
         "parent",
         "legalName",
         "address",
-        "locality",
-        "region",
         "dueDiligenceSource",
         "dueDiligenceSignature"
       ],
@@ -107,24 +309,9 @@
           "type": "string"
         },
         "address": {
-          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/streetAddress\"}",
+          "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
           "title": "Address",
-          "type": "string"
-        },
-        "locality": {
-          "$comment": "{\"term\": \"locality\", \"@id\": \"https://schema.org/addressLocality\"}",
-          "title": "Locality",
-          "type": "string"
-        },
-        "region": {
-          "$comment": "{\"term\": \"region\", \"@id\": \"https://schema.org/addressRegion\"}",
-          "title": "Region",
-          "type": "string"
-        },
-        "postalCode": {
-          "$comment": "{\"term\": \"postalCode\", \"@id\": \"https://schema.org/postalCode\"}",
-          "title": "Postal Code",
-          "type": "string"
+          "$ref": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json"
         },
         "dueDiligenceSource": {
           "$comment": "{\"term\": \"dueDiligenceSource\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#dueDiligenceSource\"}",
@@ -136,6 +323,104 @@
           "$comment": "{\"term\": \"dueDiligenceSignature\", \"@id\": \"https://open-credentialing-initiative.github.io/oci#dueDiligenceSignature\"}",
           "title": "Due Diligence Source",
           "description": "The \"dueDiligenceSignature\" property holds the signature of the company that performed due dilligence.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "https://schema.org/PostalAddress": {
+    "$id": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "PostalAddress",
+      "@id": "https://schema.org/PostalAddress"
+    },
+    "title": "Postal Address",
+    "description": "The location at which a particular organization or person may be found or reached.",
+    "classProperties": {
+      "https://schema.org/streetAddress": {
+        "$comment": {
+          "term": "streetAddress",
+          "@id": "https://schema.org/streetAddress"
+        },
+        "title": "Street Address",
+        "description": "The street address expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building."
+      },
+      "https://schema.org/addressLocality": {
+        "$comment": {
+          "term": "addressLocality",
+          "@id": "https://schema.org/addressLocality"
+        },
+        "title": "Address Locality",
+        "description": "Text specifying the name of the locality; for example, a city."
+      },
+      "https://schema.org/addressRegion": {
+        "$comment": {
+          "term": "addressRegion",
+          "@id": "https://schema.org/addressRegion"
+        },
+        "title": "Address Region",
+        "description": "Text specifying a province or state in abbreviated format; for example, NJ."
+      },
+      "https://schema.org/postalCode": {
+        "$comment": {
+          "term": "postalCode",
+          "@id": "https://schema.org/postalCode"
+        },
+        "title": "Postal Code",
+        "description": "Text specifying the postal code for an address."
+      }
+    },
+    "schema": {
+      "$id": "https://open-credentialing-initiative.github.io/oci/schemas/PostalAddress.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"PostalAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
+      "title": "Postal Address",
+      "description": "The location at which a particular organization or person may be found or reached.",
+      "type": "object",
+      "required": [
+        "streetAddress",
+        "addressLocality",
+        "addressRegion",
+        "postalCode"
+      ],
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "streetAddress": {
+          "$comment": "{\"term\": \"streetAddress\", \"@id\": \"https://schema.org/streetAddress\"}",
+          "title": "Street Address",
+          "description": "The street address expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building.",
+          "type": "string"
+        },
+        "addressLocality": {
+          "$comment": "{\"term\": \"addressLocality\", \"@id\": \"https://schema.org/addressLocality\"}",
+          "title": "Address Locality",
+          "description": "Text specifying the name of the locality; for example, a city.",
+          "type": "string"
+        },
+        "addressRegion": {
+          "$comment": "{\"term\": \"addressRegion\", \"@id\": \"https://schema.org/addressRegion\"}",
+          "title": "Address Region",
+          "description": "Text specifying a province or state in abbreviated format; for example, NJ.",
+          "type": "string"
+        },
+        "postalCode": {
+          "$comment": "{\"term\": \"postalCode\", \"@id\": \"https://schema.org/postalCode\"}",
+          "title": "Postal Code",
+          "description": "Text specifying the postal code for an address.",
           "type": "string"
         }
       },
