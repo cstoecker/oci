@@ -43,10 +43,10 @@ The DEA has ruled in the ECom Certificate Policy V4.1 policy that the Controlled
 ### Identity verification with paper documents
 If no person in the company has a DEA Signing Certificate, then the identity proofing can take place via the paper documents and “wet” signature path.
 For those companies without a DEA Signing Certificate, the credential issuer requests a list of documents that the requestor needs to provide. Documents that provide equivalent identity establishing value will need to be identified. Examples include:
-•	Articles of Incorporation
-•	IRS Employer ID Number (EIN) letter
-•	Regulator Issued License
-•	DUNS number
+- Articles of Incorporation
+- IRS Employer ID Number (EIN) letter
+- Regulator Issued License
+- DUNS number
 
 Based on the provided documents, the credential issuer performs due diligence to verify the identity and issues an Identity Credential.
 
